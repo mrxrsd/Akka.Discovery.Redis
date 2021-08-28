@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Discovery.Redis", "src\Akka.Discovery.Redis\Akka.Discovery.Redis.csproj", "{922DD803-6597-4CEE-AF45-D05823090C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Discovery.Redis", "src\Akka.Discovery.Redis\Akka.Discovery.Redis.csproj", "{922DD803-6597-4CEE-AF45-D05823090C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApp", "SampleApp", "{FF0C59C9-67EB-413A-8582-9EC295084FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleActor", "src\SampleApp\SampleActor\SampleActor.csproj", "{828B3503-C499-48B5-98D2-09908AD46E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{922DD803-6597-4CEE-AF45-D05823090C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{922DD803-6597-4CEE-AF45-D05823090C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{922DD803-6597-4CEE-AF45-D05823090C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828B3503-C499-48B5-98D2-09908AD46E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828B3503-C499-48B5-98D2-09908AD46E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828B3503-C499-48B5-98D2-09908AD46E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828B3503-C499-48B5-98D2-09908AD46E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{828B3503-C499-48B5-98D2-09908AD46E64} = {FF0C59C9-67EB-413A-8582-9EC295084FC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3043E89-FDEF-4100-A1C3-272421A4827A}
